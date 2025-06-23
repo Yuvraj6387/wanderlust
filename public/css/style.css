@@ -100,3 +100,30 @@
     height: 400px;
     width: 80vh;
  }
+ @media (max-width: 768px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 0.5rem 1rem;
+    display: block;
+  }
+
+  .search-input {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+
+  .btn-search {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+}
+.navbar-collapse {
+  background-color: white;     
+  z-index: 1000;
+  position: relative;
+  padding: 1rem;
+  
+}
